@@ -1,0 +1,15 @@
+{
+  "name": "invite-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/web",
+    "apps/api"
+  ],
+  "scripts": {
+    "dev:web": "cd apps/web && npm run dev",
+    "dev:api": "cd apps/api && npm run dev",
+    "build:web": "cd apps/web && npm run build",
+    "build:api": "cd apps/api && npm run build"
+  }
+}
